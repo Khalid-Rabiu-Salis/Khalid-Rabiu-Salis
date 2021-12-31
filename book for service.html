@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+    body{
+		background-color: silver;
+	}
+ #cont{
+ 	background-image: url("bg.JPEG");
+ 	background-repeat: no-repeat;
+ 	background-size: 5000px;
+ }
+		.labels{
+			font-family: serif;
+			font-size: 20px;
+		}
+		.option{ 
+			font-family: sans-serif;
+			color: silver;
+			background-color: black;
+		}
+		.input{
+			font-style: italic;
+			color: blue;
+		}
+		#vrf{
+			background-color: black;
+			background-size: 20px;
+		}
+		#submit{
+			size:30px;
+			background-size: 150px;
+
+		}
+		input{
+			left: 11%;
+			float: left;
+			text-align: left;
+			position: absolute;
+			display: inline-block;
+		}
+        .navbar-header{
+    background-color: rgb(100,100,200);
+    margin:4px;
+	height:40px;
+	border-radius: 4px;
+	text-align: center;
+}  
+.navbar1{
+	color: white;
+	text-decoration: none;
+	font-family: 'Poppins';
+	font-size:2em;
+    text-align:left;
+    height: 60px;
+    padding: 10px;
+}
+
+ul{ 
+	list-style-type: none;
+	text-align: right;
+	padding: 5px; 
+	margin: 10px;
+}
+ul li{
+	color: black;
+	display: inline;
+	color: black;
+    word-spacing: 10px;
+}
+ul li a{ 
+    text-decoration: none; 
+    size: 15em;
+}
+ul li a:hover{
+   color:red;
+}
+ul li a:active{
+    color:red;
+}
+.head-text.container {
+    max-width: 100%;
+}
+    .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+}
+#container{
+	display: flex;
+	align-items:center;
+}
+ 
+	</style>
+</head>
+<body style=" background-color: lightblue;">
+    <div id="cont">
+<form>
+	<h2> Book For A Service</h2>
+	<label class="labels"> Your  Names</label>
+	<input type="text" name="first name" id="name1" class="input" placeholder="firstname">
+	<input type="text" name="Second name" id="name2" class="input" placeholder="secondname"><br/><br/>
+	<label class="labels" > Your  email</label>
+	<input type="email" name="email" id="email" class="input" placeholder="your email"><br/><br/>
+	<label class="labels"> phones</label>
+	<input type="number" name="phone" id="number1" class="input"placeholder="+"; disabled>
+	<input type="number" name="phone" id="number2" class="input"placeholder="e.g 234">
+	<input type="number" name="phone" id="number3"class="input" placeholder="0**********"><br/><br/>
+	<label class="labels"> Category of service</label>
+	<select option for="Message">
+		<option class="option" > Casual Cafying</option>
+		<option class="option"> Animation</option>
+		<option class="option"> I.T Cnsultant</option>
+        <option class="option"> Website Design</option>	
+	</select><br/><br/>
+	<label class="labels">others</label>
+	<input type="text" name="Message2" id="Message"class="input" placeholder="place specify"><br/><br/>
+	<label class="labels">Note some services need physical visitation to the Cafe</label>
+	<hr>
+	<input type="submit" name="submit" id="submit">
+</form>
+</div>
+<div class="container">
+    <div class="navbar-header">
+    <a href="index1.html" class="navbar1">WELCOME TO THE BEST PLACE: KICG</a>
+    </div>
+    <div>
+    <ul>
+    <li><a href="index1.html">HOME</a></li>
+    <li><a href="service.html"> OUR-SERVICES</a></li>
+    <li><a href="contact us01.html">CONTACT-US </a></li>
+    <li><a href="others.html">OTHERS</a></li>
+    </ul>
+    </div>
+
+</body>
+</html>

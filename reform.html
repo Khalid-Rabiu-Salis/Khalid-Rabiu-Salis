@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+<title> fill our form</title>
+</head>
+<style>
+               .navbar-header{
+    background-color: rgb(100,100,200);
+    margin:4px;
+	height:40px;
+	border-radius: 4px;
+	text-align: center;
+}  
+.navbar1{
+	color: white;
+	text-decoration: none;
+	font-family: 'Poppins';
+	font-size:2em;
+    text-align:left;
+    height: 60px;
+    padding: 10px;
+}
+
+ul{ 
+	list-style-type: none;
+	text-align: right;
+	padding: 5px; 
+	margin: 10px;
+}
+ul li{
+	color: black;
+	display: inline;
+	color: black;
+    word-spacing: 10px;
+}
+ul li a{ 
+    text-decoration: none; 
+    size: 15em;
+}
+ul li a:hover{
+   color:red;
+}
+ul li a:active{
+    color:red;
+}
+.head-text.container {
+    max-width: 100%;
+}
+    .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+}
+#container{
+	display: flex;
+	align-items:center;
+}
+   
+	body{
+	background-color: #9c9f84;
+	border-color: blue;
+	border-top-style:dashed;
+	color: white;
+}
+fieldset{
+background-image: url("images (6).jpeg");
+background-repeat: no-repeat; 
+background-size: 1300px;
+
+}
+input{
+	float: left;
+	left: 22%;
+	float: left;
+	text-align: left;
+	position: absolute;
+	display: inline-block;
+}
+label{
+	color: black;
+}
+fieldset legend{
+color:white;
+font-weight: bold;
+border-radius: 5px;
+padding:0px;
+margin-top: 2px;
+
+}
+#footer{background-color:black; color: white; text-align: center; padding: 5px; clear: both;}
+#navbar ul{
+    background-color:rgb(100,100,200);
+	text-align: center;
+	padding: 5px; 
+	margin: 10px;
+	list-style-type:none;
+	border-radius: 3px;
+}
+</style>
+<body>
+
+<form>
+	<fieldset>
+	<legend ><strong><h2  style=" color:white;"> Recuirtment form</h2></strong></legend>
+	
+<label> First Name:</label>
+<input type="text" name="Name" autofocus; placeholder="First Name"required><br/><br/>
+<label>Surname:</label>
+<input type="text" name="Name" placeholder="secound name"><br/><br/>
+<label>Other Name:</label>
+<input type="text" name="Name" placeholder="if any">
+<br/></br>
+<label>Birth Date</label>
+<input type="date" name="DOB"><br/><br/>
+<div>
+<label>Gender</label>
+<input type="text" name="gender" placeholder="you can write gender here"> <br/><br/>
+<input type="radio" name="gende" value="male" checked>Male<br/></br>
+<input type="radio" name="gende" value="female">Female<br/></br>
+<input type="radio" name="gende" value="others">others<br/></br>
+</div>
+<label>phone number:</label>
+<input type="number" name="phone number" placeholder="+234"><br/><br/>
+<label>Email:</label>
+<input type="email" name="email" placeholder="something@something.com"><br/><br/>
+<label>Address:</label>
+<textarea style=" color:black;" type="text" name="Address" width="30px";></textarea><br/><br/>
+<label>Region Of Origin:</label>
+<select name="State"><br/><br/>
+<option value="Norhwest">Norh West</option>
+<option value="Norh Central">Norh Central</option>
+<option value="South West">South West</option>
+<option value="South East">South East</option>
+<option value="South South ">South South</option>
+<option value="North East">North East</option>
+</select><br/><br/>
+<label>Ntional Indentification Number(NIN):</label>
+<input type="text" name="NIN"><BR/><BR/>
+<label>Select Highest Level Of Education:</label>
+<select name="Qualification"><br/><br/>
+<option value="PhD">PhD/Doctorate Qualification</option>
+<option value="MSc.">Masters/ Secound Degree</option>
+<option value="Dgree">Degree Qualification </option>
+<option value="SSCE">SSCE Qualification</option>
+<option value="Primary">Primary School Qualification</option>
+</select><br/><br/>
+<label> School/Institution graduated from</label>
+<input type="text" name="graduated" placeholder="school/institution Address"><br/><br/>	
+<label>Password</label><input type="password" name="password" placeholder="please create a strong password for your account"> <label> </label><br/><br/>
+<label> upload your passport:</label><input type="file" name="picture"multple><br/><br/> 
+<label style="color: white;"> I have Decleared that all the infor. provided above is correct</label><br/><br/>
+<input type="checkbox" name="Declearation" value="Declearation" required>Agreed<br/><br/>
+<input type="text" name="recaptured" value="recaptured" placeholder="reCAPTURED"disabled><br/><br/>
+<input type="submit" style="background-color: black; color:white;" name="submit" onclick="alert(`thank you for submitting your form`)">
+<button type="reset" style="background-color: black; color:white;"onclick="cancelled(`you have cancelled the form`)">Cancel</button>
+</fieldset>
+</form>
+</div>
+<pre>
+<div id="footer">copyright 2021 &copy khalid internet cafe and graphics
+</div>
+</pre>
+<div class="container">
+    <div class="navbar-header">
+    <a href="index1.html" class="navbar1">WELCOME TO THE BEST PLACE: KICG</a>
+    </div>
+    <div>
+    <ul>
+    <li><a href="index1.html">HOME</a></li>
+    <li><a href="service.html"> OUR-SERVICES</a></li>
+    <li><a href="contact us01.html">CONTACT-US </a></li>
+    <li><a href="others.html">OTHERS</a></li>
+    </ul>
+    </div>
+</body>
+</html>
