@@ -1,3 +1,6 @@
+body{
+    background-color: #eee8e8;
+}
 .navbar-header{
     background-color: rgb(100,100,200);
     margin:4px;

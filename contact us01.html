@@ -2,6 +2,14 @@
 <html>
 <head>
 	<title>Contact Us</title>
+	<script type="text/javascript">
+	         function compute(){
+		var a = document.getElementById("firstname").value;
+		var b=document.getElementById("lastname").value;
+			 }
+
+		</script>
+
 </head>
 <style type="text/css">
 	body{
@@ -75,7 +83,7 @@ align-items:center;
 		<ul>
 		<li><a href="index1.html">HOME</a></li>
 		<li><a href="service.html"> OUR-SERVICES</a></li>
-		<li><a href="contact us01.html">CONTACT-US </a></li>
+		<li><a href="contact us01.html"> </a></li>
 		<li><a href="others.html">OTHERS</a></li>
 		</ul>
 		</div>
@@ -92,15 +100,15 @@ align-items:center;
      </h3>
      <div style=" padding: 30px">
  	<label> First Name </label><br/>
- 	<input type="text" name="first name" maxlength="10" required><br/><br/>
+ 	<input type="text" id="firstname" maxlength="10" placeholder="enter your first name" required><br/><br/>
  	<label> last Name(s) </label><br/>
- 	<input type="text" name="last name" maxlength="20" required><br/><br/>
+ 	<input type="text" id="lastname"  maxlength="20" placeholder="Enter surname first if two" required><br/><br/>
  	<label> email </label><br/>
  	<input type="email" name="email" maxlength="10" placeholder="most include @" required><br/><br/>
  	<label> phone </label><br/>
  	<input type="number" name="Second name" maxlength="11" required><br/><br/>
  	<label> Message Subject </label><br/>
- 	<textarea input type="text" name="msg Subject" maxlength="300" required>
+ 	<textarea input type="text" name="msg Subject" maxlength="300" placeholder="write something" required>
  </textarea><br/><br/>
  <center>
 	<h1 style="color: white"><center>Reach us</center></h1>
@@ -116,10 +124,12 @@ align-items:center;
     <label>Sat: 12:AM-6:PM</label><br/>
     <label>Sun: Closed</label>
     </h2>
- <input type="text" name="hint" value="hint: plese enter between 10-100 character" disabled><br/><br/>
- <input style=" background-color:green;" type="submit" name="submit">
- <button style=" background-color:green;"> Cancel</button>
-  </div>	
+ <button  onclick="alert(`thank you for submitting your form`)" style=" background-color:green;">submit</button>
+ <button style=" background-color:green;" close()> Cancel</button>
+  </div>
+  <div id="footer" style="background-color:rgb(100,100,200); color: rgb(255, 255, 255); text-align: center; padding: 5px; 
+clear: both;">copyright 2021 &copy khalid internet cafe and graphics
+	
 </body>
 </html>
 
